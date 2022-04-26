@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Character = ({ pokemoncito }) => {
+
+
   return (
     <div className='row'>
       {

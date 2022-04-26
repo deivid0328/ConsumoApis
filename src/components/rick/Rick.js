@@ -7,10 +7,10 @@ const Rick = () => {
 
     const [character, setCharacter] = useState([]);
     const [info , setInfo]=useState({});
-
-    const url = "https://rickandmortyapi.com/api/character";
-    const fetchCharacter = (url) => {
-      
+   
+    
+    const fetchCharacter = () => {
+        const url = "https://rickandmortyapi.com/api/character";
         const peticion = fetch(url);
         peticion
             .then(datos => datos.json())

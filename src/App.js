@@ -7,12 +7,14 @@ import Todos from './components/todosloschistes/Todos'
 
 const App = () => {
   return (
-    <div>
-        {/* <Personas/> */}
-        {/* <Chistes/> */}
-        {/* <Todos/> */}
-        {/* <Rick/> */}
+    <div> 
+      <Rick/>
+        <Personas/>
+        <Chistes/>
         <Pokemon/>
+        <Todos/>
+       
+        
     </div>
   )
 }

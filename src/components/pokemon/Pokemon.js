@@ -19,8 +19,11 @@ const consulta = () =>{
 }
 
 
+
+
     useEffect (()=>{
         consulta();
+
     })
 
 
